@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Prayer2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/d1a6249b79.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="style.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+    <audio id="myAudio" src="pry2.mp3" preload="auto">
+    </audio>
+
+<!-- Navbar -->
+<div class="w3-top" style="background-image: url('rocket.jpg');">
+  <div class="w3-bar w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars" style="background-image: url('honey.jpg');"></i></a>
+    
+   
+    <a href="index.html"><i class='fas fa-arrow-left w3-btn w3-bar-item w3-margin-center' style='font-size:36px;'></i></a>
+    <a href="prayer3.html"><i class='fas fa-arrow-right w3-btn w3-bar-item w3-margin-center' style='font-size:36px;'></i></a>
+    <!--<a><i class=" w3-btn w3-bar-item w3-margin-center w3-right material-icons" style="font-size:36px" onClick="togglePlay()">headset</i></a> -->
+    <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons" style="font-size:36px" onclick="myFunction4()">find_in_page</i>
+    <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons" style="font-size:36px" onclick="myFunction2()">brightness_6</i>
+      
+    <!--  <audio controls autoplay>
+  <source src="mol7.mp3" type="audio/mpeg">
+ </audio>
+    -->
+
+    
+   
+    
+    <!--
+     <btn class="w3-bar-item w3-button w3-padding-large w3-black w3-badge" onClick="togglePlay()">Audio</btn>   
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+    -->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="/lod/index.html" class="w3-bar-item w3-button w3-padding-large">Life Of Daniel</a>
+    <a href="/ral/index.html" class="w3-bar-item w3-button w3-padding-large">R & L</a>
+    <a href="/MOL/mol1.html" class="w3-bar-item w3-button w3-padding-large">More On Life</a>
+    <a href="/gpfm/index.html" class="w3-bar-item w3-button w3-padding-large">Gods Plan For Man</a>
+    <a href="/fab/index.html" class="w3-bar-item w3-button w3-padding-large">Flesh And Bone</a>
+    <a href="/pe/index.html" class="w3-bar-item w3-button w3-padding-large">Pauls Error</a>
+    <a href="/hlm/index.html" class="w3-bar-item w3-button w3-padding-large">Her Last Message</a>
+    <a href="/bttw/index.html" class="w3-bar-item w3-button w3-padding-large">Believe The Third Work</a>
+    <a href="/cdnh/index.html" class="w3-bar-item w3-button w3-padding-large">Curse Is Death</a>
+    
+  </div>
+  
+</div>
+
+<!-- Header 
+<header class="w3-container w3-center w3-orange" style="padding:128px 16px; background-image: url('');">
+  <h1 class="w3-margin w3-jumbo">Prayer</h1>
+  <p class="w3-xlarge">Rev. Rose M. Aluli</p><p class="w3-justify">
+   <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> 
+</header>
+-->
+<!-- First Grid -->
+
+<div id="font" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; font-size: 16px; " id="band">
+   
+    <p class="w3-opacity"><i></i></p>
+    <p class="w3-opacity"><i></i></p>
+
+    <p class="w3-justify">We can’t survive without it.  There is no way that we can survive without earnest interceding prayer one for another.  Not just for ourselves, and that is necessary, 
+      but it is more necessary that we pray for one another.</p>
+
+    <p class="w3-justify"><strong class="w3-text-red">Exodus 32:30-35</strong><strong class="w3-text-light-blue"> And it came to pass on the morrow, that Moses said unto the people, Ye have 
+      sinned a great sin: and now I will go up unto the Lord; peradventure I shall make an atonement for your sin.</strong> In other words, perhaps God will hear if I ask him.
+      <strong class="w3-text-light-blue"> And Moses returned unto the Lord, and said, Oh, this people have sinned a great sin, and have made them gods of gold. Yet now, if thou wilt forgive 
+        their sin--; and if not, blot me, I pray thee, out of thy book which thou hast written.</strong> I don’t think we have quite come to that place yet.  We would say let them go.
+        <strong class="w3-text-light-blue"> And the Lord said unto Moses, Whosoever hath sinned against me, him will I blot out of my book.</strong> Now that was the answer the Lord gave 
+        him.<strong class="w3-text-light-blue"> Therefore now go, lead the people unto the place of which I have spoken unto thee: behold, mine Angel shall go before thee: nevertheless in the 
+        day when I visit I will visit their sin upon them.</strong> He gave them a reprieve – let’s not call it a reprieve, but he put them on some sort of a space of time where they could 
+        have extended mercy.<strong class="w3-text-light-blue"> And the Lord plagued the people, because they made the calf, which Aaron made.</strong> So they were not entirely forgiven. But 
+        they did have a space of repentance.</p>
+        
+    <p class="w3-justify"><strong class="w3-text-red">Genesis 18:16-32</strong><strong class="w3-text-light-blue"> And the men rose up from thence, and looked toward Sodom: and Abraham went 
+      with them to bring them on the way. And the Lord said, Shall I hide from Abraham that thing which I do;</strong> God has promised if we walk faithfully with him; he is no respecter of 
+      persons. He said he would not hide anything from Abraham because Abraham walked upright before him.<strong class="w3-text-light-blue"> Seeing that Abraham shall surely become a great and 
+      mighty nation, and all the nations of the earth shall be blessed in him?</strong> He said I won’t hide anything from him because he is going to become a great nation.  Now we have the 
+      promise of God don’t we?  Of this nation that he is raising up again in the last day; the children of Israel, which we are, of Israel.  And we are being raised up in this last day, to be 
+      the last and the greatest nation – not as America but a nation from God, a nation of God, God’s people – that has ever been.  Do you think he is going to keep anything from us if we walk 
+      uprightly?  No, he won’t.  He will let us know everything that he is doing.<strong class="w3-text-light-blue"> For I know him, that he will</strong> Now here is God, speaking about 
+      Abraham.<strong class="w3-text-light-blue"> For I know him, that he will command his children and his household after him, and they shall keep the way of the Lord,</strong> What a thing 
+      to say.  Isn’t that tremendous – to be said of God, "I know that this man is going to command his children and his household – everybody that lives in his household – to keep the way of 
+      the Lord."<strong class="w3-text-light-blue"> to do justice and judgment; that the Lord may bring upon Abraham that which he hath spoken of him.</strong> Now if he had not done that; if 
+      Abraham had not fulfilled his part, God would never fulfill his part.  He just said so, didn’t he?  Do you see how important it is that we keep everything that God tells us?  We have to 
+      be obedient in everything, otherwise God is not obligated.  People say, “Well, that prophecy went over me, and it has not come to pass.”  Well, check your life.  Check your life.  Do not 
+      call somebody a false prophet until you have checked your life completely and thoroughly.  Because God will not fulfill the word of God – I do not care how much the word of God goes over 
+      you – unless you walk uprightly before him.  Now we know this is the Word of God, don’t we?  He says, ‘that the Lord may bring upon Abraham that which he hath spoken of him.’  That 
+      blessing.<strong class="w3-text-light-blue"> And the Lord said, Because the cry of Sodom and Gomorrah is great, and because their sin is very grievous; I will go down now, and see whether 
+      they have done altogether according to the cry of it, which is come unto me; and if not, I will know. And the men turned their faces from thence, and went toward Sodom: but Abraham stood 
+      yet before the Lord. And Abraham drew near, and said, Wilt thou also destroy the righteous with the wicked? Peradventure there be fifty righteous within the city: wilt thou also destroy 
+      and not spare the place for the fifty righteous that are therein?</strong></p>
+      
+    <p class="w3-right-align w3-text-orange" style="opacity: 0.5">pp. 5</p> 
+
+    
+    <p class="w3-justify">He’s praying now.  This is prayer.  When we commune with God, that is prayer.<strong class="w3-text-light-blue"> That be far from thee to do after this manner, to slay 
+      the righteous with the wicked:</strong> Abraham is speaking to God.<strong class="w3-text-light-blue"> and that the righteous should be as the wicked, that be far from thee:</strong> This 
+      is just not the way you do it, Lord.<strong class="w3-text-light-blue"> Shall not the Judge of all the earth do right? And the Lord said, If I find in Sodom fifty righteous within the 
+      city, then I will spare all the place for their sakes.</strong> For the righteous’ sakes, he would spare the whole city.<strong class="w3-text-light-blue"> And Abraham answered and said, 
+      Behold now, I have taken upon me to speak unto the Lord, which am but dust and ashes:</strong> He said I’ve taken this responsibility upon me.  I’m just nothing but dust and ashes.  We 
+      are nothing, I mean we are nothing in the sight of God, I mean in comparison to God.  We are precious in his sight, but what do we know?  Nothing.  We are like babes in the womb.  Do you 
+      remember that, that the Lord spoke?  Yet he says ‘I’ve taken it upon myself.’</p>
+
+    <p class="w3-justify">Oh, the anointing is on me so heavy. You had better hear this today, believe me.<strong class="w3-text-light-blue"> Peradventure there shall lack five of the fifty 
+      righteous: wilt thou destroy all the city for lack of five? And he said, If I find there forty and five, I will not destroy it. And he spake unto him yet again, and said, Peradventure 
+      there shall be forty found there. And he said, I will not do it for forty's sake. Do you see the mercy of God?  And he said unto him, Oh let not the Lord be angry,</strong> This is what 
+      I said to the Lord that time when I wanted him to prove to me about the Holy Ghost.  I was tossing that Bible up and letting it fall whichever way it wanted to on the bed, when I was on 
+      my knees.  To prove that the Holy Ghost was for me in that day, in this century.  I thought it ended back with the apostles and I had taught it so many years.  And how he kept proving it 
+      and proving it.  Another place in the Bible – it would open up to another place and he would cause my eyes to fall on the scriptures of the Spirit and the baptism of the Holy Ghost.  So I 
+      know a little bit how Abraham felt.  I was afraid of God.  I was afraid to put him to the test like that.<strong class="w3-text-light-blue"> And he said unto him, Oh let not the Lord be 
+      angry, and I will speak: Peradventure there shall thirty be found there. And he said, I will not do it, if I find thirty there.</strong> Thank you, God.  Thank you, God, for your mercy.
+      <strong class="w3-text-light-blue"> And he said, Behold now, I have taken upon me to speak unto the Lord: Peradventure there shall be twenty found there. And he said, I will not destroy 
+      it for twenty's sake.</strong> Can you imagine, two big cities like Sodom and Gomorrah?  I read – I don’t remember the exact population of it then, but they estimated it, according to the 
+      people – but they were very, very large cities.<strong class="w3-text-light-blue"> And he said, Oh let not the Lord be angry, and I will speak yet but this once:</strong> This is the 
+      last time, he said, I’ll ask you, Lord.<strong class="w3-text-light-blue"> Peradventure ten shall be found there. And he said, I will not destroy it for ten's sake.</strong></p>
+
+    <p class="w3-right-align w3-text-light-gray" style="opacity: 0.5">pp. 6</p>
+    
+    <p class="w3-justify"><strong class="w3-text-red">Genesis 19:1-16</strong><strong class="w3-text-light-blue">And there came two angels to Sodom at even; and Lot sat in the gate of 
+      Sodom:</strong> Now remember this is Lot, Abraham’s nephew.<strong class="w3-text-light-blue"> and Lot seeing them rose up to meet them; and he bowed himself with his face toward the 
+      ground; And he said, Behold now, my lords,</strong> Now remember Abraham just fed these men, had his wife dress the calf.  These two men had eaten with Abraham and the angels had told him 
+      where they were going – to destroy the cities of Sodom and Gomorrah, and Abraham had pleaded for Lot also.<strong class="w3-text-light-blue"> And he said, Behold now, my lords, turn in, 
+      I pray you,</strong> We used to say when it was time to go to bed, “I’m going to turn in, to bed.”<strong class="w3-text-light-blue"> into your servant's house, and tarry all night, and 
+      wash your feet, and ye shall rise up early, and go on your ways.</strong> In other words, Lot was inviting them to his home.<strong class="w3-text-light-blue"> And they said, Nay; but we 
+      will abide in the street all night. And he pressed upon them greatly; and they turned in unto him, and entered into his house; and he made them a feast, and did bake unleavened bread, 
+      and they did eat. But before they lay down, the men of the city, even the men of Sodom, compassed the house round, both old and young, all the people from every quarter:</strong> I am 
+      watching things on TV lately: we’re seeing some things that are going on right there now, on TV.  We’re watching all these sodomites, how they are gathering and how they are uprising and 
+      even becoming violent in the streets.  And our government does not even do one thing about it.  Do you think that we are going to escape when the same thing was happening with these 
+      unnatural sex acts?  There will be no escape.  No escape.  I know I am speaking the word of God.  There will be no escape.  We do not do against what God orders and think that we are 
+      going to escape. We will not escape.<strong class="w3-text-light-blue"> And they called unto Lot, and said unto him, Where are the men which came in to thee this night? Bring them out 
+      unto us, that we may know them.</strong> We know what that word meant.  This was the word that Isaac and Rebekah – the Lord said that he took her into his mother’s tent and he ‘knew’ 
+      her.  In other words, it was sex.  So we know that this is what these men wanted.<strong class="w3-text-light-blue"> And Lot went out at the door unto them, and shut the door after 
+      him,</strong> He went outside and faced those men, rather than let them get at the angels.<strong class="w3-text-light-blue"> And said, I pray you, brethren, do not so wickedly. Behold 
+      now, I have two daughters which have not known man; let me, I pray you, bring them out unto you, and do ye to them as is good in your eyes: only unto these men do nothing; for therefore 
+      came they under the shadow of my roof.</strong> That is why he brought them in, because of the men.  Wouldn’t let them stay out in the streets.<strong class="w3-text-light-blue"> And they 
+      said, Stand back. And they said again, This one fellow came in to sojourn, and he will needs be a judge: now will we deal worse with thee,</strong> They are saying now here, this man has 
+      stepped out of his house – Lot stepped out of his house – to be a judge of us.  They don’t want to be judged for their sin.  They do not want to be judged for their sin.  He says now 
+      we’ll deal worse with you – with Lot.<strong class="w3-text-light-blue"> than with them.  And they pressed sore upon the man, even Lot, and came near to break the door. But the men put 
+      forth their hand,</strong> The two men inside, the angels.<strong class="w3-text-light-blue"> and pulled Lot into the house to them, and shut to the door. And they smote the men that 
+      were at the door of the house with blindness, both small and great: so that they wearied themselves to find the door.</strong> They couldn’t find it.  Think of the greatness of God to 
+      protect one man that stood for righteousness.  We do not have to be afraid of one thing in this earth, or in the next – anywhere, in hell, anywhere – if we will follow God with our whole 
+      heart, and keep his commandments, and obey his voice.  Amen.  But if not, we are going to be looking for that fearful judgment. Amen.</p>
+
+    <p class="w3-right-align w3-text-orange" style="opacity: 0.5">pp. 7</p>  
+    
+    <p class="w3-justify">I don’t know why the Lord won’t let me give up on this.  We are going to really be judged if we do not absolutely walk in the ways of God and in his commandments. I 
+      never felt a more severe warning in my life, in my spirit, then I feel right now.  A terrible warning, because of unnatural sex acts among God’s people, and looseness of character.  We 
+      have to walk Godly and cleaned up before him, otherwise you are going to hell.  There is no other way.  We are no better than Sodom and Gomorrah and God is no respecter of 
+      persons.<strong class="w3-text-light-blue"> And the men said unto Lot, Hast thou here any besides?</strong> That is, besides him.<strong class="w3-text-light-blue"> Son in law, and thy 
+      sons, and thy daughters, and whatsoever thou hast in the city, bring them out of this place:</strong> These are the two angels that are speaking.<strong class="w3-text-light-blue"> For 
+      we will destroy this place, because the cry of them is waxen great before the face of the Lord; and the Lord hath sent us to destroy it. And Lot went out, and spake unto his sons in law, 
+      which married his daughters, and said, Up, get you out of this place; for the Lord will destroy this city. But he seemed as one that mocked unto his sons in law.</strong> They made fun 
+      of him.<strong class="w3-text-light-blue"> And when the morning arose, then the angels hastened Lot, saying, Arise, take thy wife, and thy two daughters,</strong> He left the sons in law 
+      in there, the mockers, didn’t he?  He left them in the city.<strong class="w3-text-light-blue"> which are here; lest thou be consumed in the iniquity of the city. And while he lingered, 
+      the men laid hold upon his hand,</strong> The angels.<strong class="w3-text-light-blue"> and upon the hand of his wife, and upon the hand of his two daughters; the Lord being merciful 
+      unto him: and they brought him forth, and set him without the city.</strong></p>
+
+    <p class="w3-justify"><strong class="w3-text-red">Genesis 19:22-24</strong><strong class="w3-text-light-blue"> Haste thee, escape thither; for I cannot do any thing till thou be come 
+      thither.</strong> Until Lot got out of there, the angels were bound from bringing destruction, because they had their orders from God.<strong class="w3-text-light-blue"> Therefore the 
+      name of the city was called Zoar. The sun was risen upon the earth when Lot entered into Zoar.</strong> It was early in the morning when he woke them up to get them out of 
+      there.<strong class="w3-text-light-blue"> Then the Lord rained upon Sodom and upon Gomorrah brimstone and fire from the Lord out of heaven;</strong></p>
+      
+    <p class="w3-justify"><strong class="w3-text-red">Isaiah 3:8-9</strong><strong class="w3-text-light-blue"> For Jerusalem is ruined, and Judah is fallen: because their tongue and their 
+      doings are against the Lord, to provoke the eyes of his glory. The shew of their countenance doth witness against them; and they declare their sin as Sodom, they hide it 
+      not.</strong> This is many, many, many years later, but their sin was the same thing.  It is many, many years later and their sin is the same in America and all over the world right 
+      now. The same sin that started out in the beginning in Genesis is still in the land.  And it is rising up stronger and stronger and stronger in the earth.  And it is coming up before 
+      God’s face.  It is a stench unto him and he is going to breathe it.  Amen.  We are going to be judged.<strong class="w3-text-light-blue"> Woe unto their soul! For they have rewarded evil 
+      unto themselves.</strong></p>
+      
+    <p class="w3-justify"><strong class="w3-text-red">Ezekiel 38:22</strong><strong class="w3-text-light-blue"> And I will plead against him with pestilence and with blood; and I will rain 
+      upon him, and upon his bands, and upon the many people that are with him, an overflowing rain, and great hailstones, fire, and brimstone.</strong> We know who this is speaking of here, 
+      that it speaks of in the 24th chapter of Matthew and the Book of Revelation.  In this very end time, we are going to see God destroy Russia and his bands with fire and brimstone, during 
+      this time when Satan gathers his people against the people of God. They will come against the people of God.</p> 
+      
+    <p class="w3-right-align w3-text-light-gray" style="opacity: 0.5">pp. 8</p>  
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+       
+       
+    <p class="w3-justify"><strong class="w3-text-red"></strong><strong class="w3-text-light-blue"></strong></p>
+
+    <p class="w3-justify"><strong class="w3-text-red"></strong><strong class="w3-text-light-blue"></strong></p>
+
+    <p class="w3-justify"><strong class="w3-text-light-blue"></strong><strong class="w3-text-red"></strong></p>
+    
+    <p class="w3-justify"><strong class="w3-text-light-blue"></strong><strong class="w3-text-red"></strong></p>
+              
+       
+    <strong class="w3-text-light-blue"><span class="w3-text-red"></span></strong>      
+
+    <strong class="w3-text-red"></strong>
+       
+        
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="w3-bottom " style="background-image: url('rocket.jpg');">
+    <div class="w3-bar w3-card w3-center w3-xlarge">
+      
+      <audio class="w3-padding w3-xxlarge " controls style="background-image: url('rocket.jpg');">
+        <source src="pry2.mp3" type="audio/mpeg">
+       </audio>
+     
+      
+  </div>
+  </div> 
+
+    
+
+<!-- Second Grid 
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+-->
+<!-- Footer 
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+-->
+<script src="script.js"></script>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

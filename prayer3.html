@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Prayer3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/d1a6249b79.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="style.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+    <audio id="myAudio" src="pry3.mp3" preload="auto">
+    </audio>
+
+<!-- Navbar -->
+<div class="w3-top" style="background-image: url('rocket.jpg');">
+  <div class="w3-bar w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars" style="background-image: url('honey.jpg');"></i></a>
+    
+   
+    <a href="prayer2.html"><i class='fas fa-arrow-left w3-btn w3-bar-item w3-margin-center' style='font-size:36px;'></i></a>
+    <a href="prayer4.html"><i class='fas fa-arrow-right w3-btn w3-bar-item w3-margin-center' style='font-size:36px;'></i></a>
+    <!--<a><i class=" w3-btn w3-bar-item w3-margin-center w3-right material-icons" style="font-size:36px" onClick="togglePlay()">headset</i></a> -->
+    <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons" style="font-size:36px" onclick="myFunction4()">find_in_page</i>
+    <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons" style="font-size:36px" onclick="myFunction2()">brightness_6</i>
+      
+    <!--  <audio controls autoplay>
+  <source src="mol7.mp3" type="audio/mpeg">
+ </audio>
+    -->
+
+    
+   
+    
+    <!--
+     <btn class="w3-bar-item w3-button w3-padding-large w3-black w3-badge" onClick="togglePlay()">Audio</btn>   
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+    -->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="/lod/index.html" class="w3-bar-item w3-button w3-padding-large">Life Of Daniel</a>
+    <a href="/ral/index.html" class="w3-bar-item w3-button w3-padding-large">R & L</a>
+    <a href="/MOL/mol1.html" class="w3-bar-item w3-button w3-padding-large">More On Life</a>
+    <a href="/gpfm/index.html" class="w3-bar-item w3-button w3-padding-large">Gods Plan For Man</a>
+    <a href="/fab/index.html" class="w3-bar-item w3-button w3-padding-large">Flesh And Bone</a>
+    <a href="/pe/index.html" class="w3-bar-item w3-button w3-padding-large">Pauls Error</a>
+    <a href="/hlm/index.html" class="w3-bar-item w3-button w3-padding-large">Her Last Message</a>
+    <a href="/bttw/index.html" class="w3-bar-item w3-button w3-padding-large">Believe The Third Work</a>
+    <a href="/cdnh/index.html" class="w3-bar-item w3-button w3-padding-large">Curse Is Death</a>
+    
+  </div>
+  
+</div>
+
+<!-- Header 
+<header class="w3-container w3-center w3-orange" style="padding:128px 16px; background-image: url('');">
+  <h1 class="w3-margin w3-jumbo">Prayer</h1>
+  <p class="w3-xlarge">Rev. Rose M. Aluli</p><p class="w3-justify">
+   <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> 
+</header>
+-->
+<!-- First Grid -->
+
+<div id="font" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; font-size: 16px; " id="band">
+   
+    <p class="w3-opacity"><i></i></p>
+    <p class="w3-opacity"><i></i></p>
+
+    <p class="w3-justify">We are actually going to see the heavens on fire by God himself.  Amen. We have called it everything else – we’ve called it atomic warfare (and I am guilty of it too; 
+        and we will see some of that too) – but actually, the final judgment when he says the elements shall melt with fervent heat, it’s God. God is going to do it with fire and brimstone 
+        just like he did to Sodom and Gomorrah. Amen. I fear God. I fear him when I feel him all over my body till I can hardly speak.  He’s just all over. I feel like my very hair is 
+        standing up on my head. It is just his power and his anointing on me.  I know this is his word for today.  I know that if we don’t hear these words, we will be judged by the very 
+        words out of the mouth today, because it is by the Spirit of God. Amen. Oh, I pray we take this to heart today.</p>
+
+    <p class="w3-justify"><strong class="w3-text-red">Revelation 16:21</strong><strong class="w3-text-light-blue"> And there fell upon men a great hail out of heaven, every stone about the 
+        weight of a talent:</strong> Which is a hundred pounds.<strong class="w3-text-light-blue"> and men blasphemed God because of the plague of the hail; for the plague thereof was 
+        exceeding great.</strong> A little ways back, it tells about the lightnings, and the earthquakes, and the thunders, and so on and so forth.</p>
+        
+    <p class="w3-justify"><strong class="w3-text-red">Revelation 20:10</strong><strong class="w3-text-light-blue"> And the devil that deceived them was cast into the lake of fire and 
+        brimstone,</strong> Brimstone is the hottest fire known to man.  It absolutely consumes everything.<strong class="w3-text-light-blue"> where the beast and the false prophet 
+        are,</strong> You want to be cast into the lake of fire with the beast and the false prophet?  That is where we are going.<strong class="w3-text-light-blue"> and shall be tormented 
+        day and night for ever and ever.</strong> Now this is the last book of the Bible, and he is saying the same things in it that he says in the beginning about Sodom and Gomorrah.</p>
+        
+    <p class="w3-justify"><strong class="w3-text-red">Revelation 21:8</strong><strong class="w3-text-light-blue"> But the fearful, and unbelieving, and the abominable, and murderers, and 
+        whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.</strong> That is goodbye. 
+        If you get in the lake of fire, you never come out.  Amen.  That is it. There is no escape.  Which burneth forever and ever.  Amen.</p>
+        
+    <p class="w3-justify"><strong class="w3-text-red">Acts 14:8-11</strong><strong class="w3-text-light-blue"> And there sat a certain man at Lystra, impotent in his feet, being a cripple 
+        from his mother's womb, who never had walked: The same heard Paul speak: who stedfastly beholding him, and perceiving that he had faith to be healed,</strong> Paul, while he was 
+        preaching, kept looking at this man with the bad feet.  He understood that the man had faith to be healed.<strong class="w3-text-light-blue"> Said with a loud voice, Stand upright on 
+        thy feet. And he leaped and walked. And when the people saw what Paul had done, they lifted up their voices, saying in the speech of Lycaonia, The gods are come down to us in the 
+        likeness of men.</strong> Now look at this.  That is how they felt about it.  We see all of these miracles these days and we pass it off like a whiff of smoke, instead of recognizing 
+        and having a fear of God, as we should.  Right?  And you know, (not to bring myself into the picture) the great miracle that God did in my own life two years ago, when he gave me a 
+        whole new heart and a whole new body and has completely changed my whole life.  And I have told people, and you would think I was talking about a north wind that blew; no concern that 
+        it was the hand of God Almighty himself that heals.  That we have no hope of our own.  There is no way we can help ourselves.  And yet we take him so for granted.</p>
+    
+    <p class="w3-justify">And that’s exactly what the children of Israel had done and that is why they were destroyed and were not allowed to go in, because all they did was take from him, 
+        take from him, take from him, and without thanks and without honoring God.  Now isn’t it the truth?  They ate the quail, Amen, the manna, and then just ran around to play.  Did 
+        not obey God.  They spent every bit of their time just the way they wanted to do; doing their little things.</p>
+
+    <p class="w3-right-align w3-text-orange" style="opacity: 0.5">pp.9</p>     
+        
+    <p class="w3-justify">And we are living in a much more serious age.  We are.  Time is at hand.  The end is here.  And also, it was quickened back to me; this man that was raised from the 
+        dead, when Jesus told him that his coming was so near, and he was probably 75, maybe older.  His coming was so near that Jesus said, "You’ll never have to die again."  He says my 
+        coming is but a split second from now in God’s timing, but a split second in comparison, through the ages that we have lived.  So it must be awfully close if it is down to that split 
+        second in God’s timing.  And yet we just go on as if we have all the time in the world.  Amen.  And there are things in every one of us – I don’t care who we are – that God is dealing 
+        with; and we are going to have to knock it off or we are going to be sitting on the sidelines when God comes in his fullness to set up his kingdom in the earth.  We are going to be 
+        sitting there looking, just like the children of Israel, they just marched around.  They did not obey God.  They just marched around.  We have to be careful.  We must awaken and seek 
+        God in the Spirit.  There is no excuse for us not to use the gifts that God has given us and to get prepared, that we can go out, Amen, and do the work of the Lord.</p>
+
+    
+    <p class="w3-justify"><strong class="w3-text-red">Colossians 4:2-5</strong><strong class="w3-text-light-blue"> Continue in prayer, and watch in the same with thanksgiving;</strong> In 
+    other words, this word could be used, “wait”.  Wait on him.  Watch.  What do you do when you are watching?  You are not running, are you?<strong class="w3-text-light-blue"> Withal praying 
+    also for us,</strong> Until we get love enough for one another and concerned enough about one another; that we will really sincerely pray for one another when there is a 
+    need.<strong class="w3-text-light-blue"> that God would open unto us a door of utterance, to speak the mystery of Christ, for which I am also in bonds:</strong> This is Paul speaking.
+    <strong class="w3-text-light-blue"> That I may make it manifest, as I ought to speak.</strong> Do any of you ever pray for me that God would give me the wisdom, and the knowledge, and the 
+    understanding, and the anointing?  Do you know that it is your duty to pray for me?  Did you know that?  And if I don’t have the anointing on me, do you know that it is your fault, not 
+    mine?  I mean it.  Remember that instance where they held up Moses’ hands?  And as long as they held his hands up – that means they were praying, Amen, they were standing with him – then 
+    the battle was being won.  As soon as they let his hands down, then the enemy would take over.  The responsibility of one another – and it is my duty to pray for you and I do pray for you.  
+    You must pray for me.<strong class="w3-text-light-blue"> Walk in wisdom toward them that are without,</strong> On the outside<strong class="w3-text-light-blue">redeeming the 
+    time.</strong></p>
+    
+    <p class="w3-justify">Are we learning through these scripture up to now, that it is necessary to pray?  That we must pray?  That is what we started out with – that we must pray.</p>
+
+    <p class="w3-justify"><strong class="w3-text-light-blue">Matthew 6:1-8</strong><strong class="w3-text-red">Take heed that ye do not your alms</strong>Or gifts to the poor.
+    <strong class="w3-text-red">before men, to be seen of them: otherwise ye have no reward</strong> You mean if we do something to show off or get a good proud feeling because we give 
+    somebody a gift or something, that our reward is gone?  When A. A. Allen, that big preacher died, and they asked what happened to him. I asked God one day to show me.  I said, “What did 
+    happen to him, Lord?”  He said to me, just this plain, “He received his reward of men.”  All of his doing was to receive money.  He had a tremendous ministry; he has gone down in history 
+    as one of the greatest for casting out devils and healing the sick; but the Lord said he had received his reward of men, because he desired the favor of man.  Although he would get up and 
+    say that God was doing it; but still in his own life, everything that he had done, he was doing to receive that good feeling, that reward of men.  And to spend his money that God had 
+    blessed him with on loose living.  He died of cirrhosis of the liver from alcohol, and they did not find it out until late in his ministry.  So if we are doing anything, if we are not 
+    doing it with the right motive, you better keep everything in your pocket.  I mean it.  Amen.<strong class="w3-text-red"> Otherwise ye have no reward of your Father which is in 
+    heaven.</strong> You get your reward from somebody who says, "Oh, look what he did.  Oh, look what she did.  Look what a great gift she has given."  And that person feels all good, all 
+    puffed up and so happy about it.  You have already received your reward.  Don’t expect to get one from God.  That is your reward.<strong class="w3-text-red"> Therefore when thou doest 
+    thine alms,</strong> Or you give to the poor, or whatever.<strong class="w3-text-red"> do not sound a trumpet before thee, as the hypocrites do in the synagogues and in the streets, that 
+    they may have glory of men. Verily I say unto you, They have their reward.</strong> You have already got it.  That is your reward.  That is what he says.  Do you believe the word of God?  
+    When you give, keep it to yourself.<strong class="w3-text-red"> ut when thou doest alms, let not thy left hand know what thy right hand doeth: That thine alms may be in secret: and thy 
+    Father which seeth in secret himself shall reward thee openly.</strong> He’s teaching us how to pray and how to give.<strong class="w3-text-red"> And when thou prayest, thou shalt not be 
+    as the hypocrites are: for they love to pray standing in the synagogues and in the corners of the streets, that they may be seen of men. Verily I say unto you, They have their reward. 
+    But thou, when thou prayest, enter into thy closet,</strong> Oh, we love to act religious.  Isn’t that fun; let everybody think that we are so religious and so good when we are stinking 
+    and rotten inside.  Now that is flesh.  That is what flesh can do to us.  If we are not careful, it will deceive every one of us.<strong class="w3-text-red"> and when thou hast shut thy 
+    door, pray to thy Father which is in secret; and thy Father which seeth in secret shall reward thee openly. But when ye pray, use not vain repetitions, as the heathen do:</strong> Now we 
+    could get a real good lesson here about praying for the same thing over and over and over and over and over until God must almost get deaf, instead of having faith that when we pray and 
+    ask him and believe that you have it, then shut your mouth.  And if it does not come, then trust God.  He says if you know that he has heard you, then you know that you have the petition 
+    for which you have asked.  So have faith.  Of course, there is the other scripture of the unjust judge; because of her persistent calling on him, he gave her her request.  Maybe she had to 
+    do that in order to get faith.  Who knows?  If you do not have faith, maybe you will have to go back and pray about it again, like I have so many times.  But he wants us to know what 
+    prayer is and how to pray and who we are praying to.  If we really knew who we were asking, we would not be afraid.<strong class="w3-text-red"> But when ye pray, use not vain repetitions, 
+    as the heathen do: for they think that they shall be heard for their much speaking.</strong> And if we are not careful, that is what we will get to thinking.  Well, I prayed about it for 
+    twenty years now, so he is surely going to hear me.  That does not mean a thing. It is praying and believing God that he is going to do it that gets the answer; our faith when we believe 
+    he is going to do what we have asked him.  He said if you pray and do not have faith, do not ask.  It is nothing.  It is worthless.<strong class="w3-text-red"> Be not ye therefore like 
+    unto them: for your Father knoweth what things ye have need of, before ye ask him.</strong> He already knows.  But he said, "Ye have not because ye ask not."  He still wants us to ask him 
+    and recognize him that we might know where the answer is coming from.  Amen.  From God.</p>
+
+    <p class="w3-right-align w3-text-light-gray" style="opacity: 0.5">pp.10</p>
+
+    <p class="w3-justify"><strong class="w3-text-red">Matthew 19:13-15</strong><strong class="w3-text-light-blue">Then were there brought unto him little children, that he should put his hands on them, and 
+        pray:</strong> You are right in line with God’s plan if you want to lay hands on somebody and pray for them.<strong class="w3-text-light-blue"> and the disciples rebuked them. But Jesus 
+        said,</strong><strong class="w3-text-light-blue"> Suffer</strong> Or allow.<strong class="w3-text-red"> little children, and forbid them not, to come unto me: for of such is the 
+        kingdom of heaven.</strong><strong class="w3-text-light-blue"> And he laid his hands on them, and departed thence.</strong> </p>
+
+    <p class="w3-justify"><strong class="w3-text-red">Matthew 26:36-41</strong><strong class="w3-text-light-blue"> Then cometh Jesus with them unto a place called Gethsemane, and saith unto 
+        the disciples,</strong><strong class="w3-text-red"> Sit ye here, while I go and pray yonder.</strong><strong class="w3-text-light-blue"> And he took with him Peter and the two sons of 
+        Zebedee, and began to be sorrowful and very heavy. Then saith he unto them,</strong><strong class="w3-text-red"> My soul is exceeding sorrowful, even unto death: tarry ye here, and 
+        watch with me.</strong> Or wait with me now.  Pray, in other words: carry the burden with me.  He was going through a very severe trial.</p>
+        
+    <p class="w3-justify">We need to pray for those in authority.  What do you think our president is going through this morning?  Do you think you have burdens?  How would you like to sit in 
+        his shoes this morning?  I believe the man really wants to run a decent, clean government.  I believe he has a heart that wants a clean government, but he is fighting all of these 
+        elements that are against everything that is decent.  Now I am not for any political person.  I am not saying hoop’de’rah, making my big hallelujah toward President Carter, praise God, 
+        but I know that these men that are set in places of authority like that; and many of them are Christians and they try to do what is right, but there are too many opposing forces; 
+        forces of Satan in our government.  And they are fighting against everything that is good, and they are satanic forces.  And we need to pray for our leaders and for anyone who has any 
+        seat of authority.  That is what he says; pray for those people, that they can do what God wants them to do.  Amen.<strong class="w3-text-light-blue"> And he went a little farther, 
+        and fell on his face, and prayed, saying,</strong> The Lord picked those three men to wait with him, that they would strengthen him in his time of real need.  He really had a need.  
+        He knew that he was going to face the cross.<strong class="w3-text-light-blue"> And he went a little farther, and fell on his face, and prayed, saying,</strong>
+        <strong class="w3-text-red"> O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt.</strong> What a thing to have to 
+        face.<strong class="w3-text-light-blue"> And he cometh unto the disciples, and findeth them asleep,</strong> Oh how discouraging, the three that he had the most confidence 
+        in.<strong class="w3-text-red"> What, could ye not watch with me one hour? Watch and pray, that ye enter not into temptation: the spirit indeed is willing, but the flesh is 
+        weak.</strong>Let us recognize what we are; but flesh beings and we are weak in this flesh.  And if we do not heed, and we do not listen, we are not going to make it.  The Lord did 
+        not put that warning in there just to be filling up space.  Watch and pray that ye enter not into temptation.  The spirit is willing because it is the spirit of Christ that lives in 
+        here, but the flesh is weak.</p>
+
+    <p class="w3-right-align w3-text-orange" style="opacity: 0.5">pp.11</p>    
+        
+    <p class="w3-justify"><strong class="w3-text-red">Mark 11:22-26</strong><strong class="w3-text-light-blue"> And Jesus answering saith unto them</strong><strong class="w3-text-red"> , Have 
+        faith in God. For verily I say unto you, That whosoever shall say unto this mountain, Be thou removed, and be thou cast into the sea; and shall not doubt in his heart,</strong> Did you 
+        know there is a difference in doubting in your mind and doubting in your heart?<strong class="w3-text-red"> but shall believe that those things which he saith shall come to pass; he 
+        shall have whatsoever he saith. Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive them, and ye shall have them.</strong> The fault is not in 
+        God.  It is in us because we do not believe.  Oh, once in a while we believe, and we see some great thing happen, and we get all excited about it, but why can’t we have faith all of 
+        the time, to believe?  If we do not see it happen right then, well, believe God anyhow.  Amen.  It has to come to pass if we ask in faith.<strong class="w3-text-red"> And when ye stand 
+        praying, forgive, if ye have ought against any: that your Father also which is in heaven may forgive you your trespasses. But if ye do not forgive,</strong> Oh, I see people all 
+        crippled up with arthritis and pains in their bodies, and it comes from unforgiving spirits.  Now doctors have even proven this.  Unforgiving spirits can cause all kinds of diseases 
+        in our bodies.  I have heard hundreds of testimonies about the minute they got that hatred out of their heart for someone, they got well.  Suddenly got well.  They knew it was because 
+        of the hatred in their hearts that caused them to be sick.  If you are getting sick, check yourself.  I am not talking about a virus coming along and getting into your flesh, but I am 
+        talking about these long lingering diseases. And one doctor got so bold the other day as to say he thinks cancer – most of it comes from hatred.  Now think of it.  He got so bold as to 
+        say it.  He said I believe cancer very possibly, that cancer is caused by hatred.  And emotional upsets, like a child can get cancer.  It can come from deep-seated resentments and 
+        things against the parents.  He didn’t say it was a fact, but he made that statement and I happened to hear it.<strong class="w3-text-red"> But if ye do not forgive, neither will your 
+        Father which is in heaven forgive your trespasses.</strong> Now that is the truth.  If we do not forgive, anyone, I don’t care who it is.  He did not single it out, but he said anyone.  
+        If you have any hatred in your heart toward anyone and you go to God, you might just as well shut your mouth because he is not going to forgive you for that trespass of hatred unless 
+        you forgive first.  You forgive first, then he will forgive you.  Amen.  Now that is God’s word.  That is not mine.  I thank God that that is not mine. Now remember this is on prayer 
+        and our attitude towards the Lord.</p>
+        
+    <p class="w3-justify"><strong class="w3-text-light-blue">Mark 13:32-33</strong><strong class="w3-text-red"> But of that day and that hour knoweth no man, no, not the angels which are in 
+        heaven, neither the Son, but the Father. Take ye heed,</strong> Now look, it is getting close to the coming of the Lord.  He said, ‘Be watchful.  Take heed.’
+        <strong class="w3-text-red"> watch and pray: for ye know not when the time is.</strong> Let your heart always be in an attitude of prayer.  Now if you can’t; if you are doing 
+        something, perhaps in the books and things, you have to keep your mind on your figures, but yet you can stop to breathe.  And you know that you are in communication with the Lord.  
+        That is what I am saying.  Always be instant in season and out of season.  Always.</p>
+        
+    <p class="w3-justify">Now this is speaking of Hannah.  You remember she was crying out before the Lord.  She wanted a child.  The Lord had shut her womb.</p>
+    
+    <p class="w3-justify"><strong class="w3-text-red">1 Samuel 1:6-17</strong><strong class="w3-text-light-blue"> And her adversary also provoked her sore, for to make her fret, because the 
+        Lord had shut up her womb.  And as he did so year by year,</strong> Her husband.<strong class="w3-text-light-blue"> when she went up to the house of the Lord, so she provoked 
+        her;</strong> His Wife<strong class="w3-text-light-blue"> therefore she wept, and did not eat. Then said Elkanah her husband to her, Hannah, why weepest thou? And why eatest thou not? 
+        And why is thy heart grieved? Am not I better to thee than ten sons?</strong> He knew she was crying for a son.  He was trying to comfort her.<strong class="w3-text-light-blue"> So 
+        Hannah rose up after they had eaten in Shiloh, and after they had drunk. Now Eli the priest sat upon a seat by a post of the temple of the Lord. And she was in bitterness of soul, and 
+        prayed unto the Lord, and wept sore. And she</strong> made a vow, or<strong class="w3-text-light-blue"> vowed a vow, and said, O Lord of hosts, if thou wilt indeed look on the 
+        affliction of thine handmaid, and remember me, and not forget thine handmaid, but wilt give unto thine handmaid a man child, then I will give him unto the Lord all the days of his 
+        life, and there shall no razor come upon his head.</strong> He would be a Nazarite, in other words.<strong class="w3-text-light-blue"> And it came to pass, as she continued praying 
+        before the Lord, that Eli</strong> Watched her<strong class="w3-text-light-blue"> mouth marked her mouth. Now Hannah, she spake in her heart;</strong> Can you pray to God in your own 
+        heart?  Oh, yes you can.  This is why I brought this story out, that we might see that you do not always have to stand and let anybody even know that you are praying, but in your heart 
+        you can pray to the Lord.<strong class="w3-text-light-blue"> only her lips moved, but her voice was not heard: therefore Eli thought she had been drunken. And Eli said unto her, How 
+        long wilt thou be drunken? Put away thy wine from thee. And Hannah answered and said, No, my lord, I am a woman of a sorrowful spirit:</strong> He was some priest; did not even 
+        recognize a woman in despair.  Amen.<strong class="w3-text-light-blue"> I have drunken neither wine nor strong drink, but have poured out my soul before the LORD. Count not thine 
+        handmaid for a daughter of Belial: for out of the abundance of my complaint and grief have I spoken hitherto. Then Eli answered and said, Go in peace: and the God of Israel grant thee 
+        thy petition that thou hast asked of him.</strong></p>
+
+    <p class="w3-right-align w3-text-light-gray" style="opacity: 0.5">pp.12</p>     
+
+    <p class="w3-justify"><strong class="w3-text-red"></strong><strong class="w3-text-light-blue"></strong></p>    
+        
+        
+
+    
+      
+    
+
+    
+    
+
+  
+    
+    
+      
+    
+        
+      
+    
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+
+    <p class="w3-justify"></p>
+       
+       
+    <p class="w3-justify"><strong class="w3-text-red"></strong><strong class="w3-text-light-blue"></strong></p>
+
+    <p class="w3-justify"><strong class="w3-text-red"></strong><strong class="w3-text-light-blue"></strong></p>
+
+    <p class="w3-justify"><strong class="w3-text-light-blue"></strong><strong class="w3-text-red"></strong></p>
+    
+    <p class="w3-justify"><strong class="w3-text-light-blue"></strong><strong class="w3-text-red"></strong></p>
+              
+       
+    <strong class="w3-text-light-blue"><span class="w3-text-red"></span></strong>      
+
+    <strong class="w3-text-red"></strong>
+       
+        
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="w3-bottom " style="background-image: url('rocket.jpg');">
+    <div class="w3-bar w3-card w3-center w3-xlarge">
+      
+      <audio class="w3-padding w3-xxlarge " controls style="background-image: url('rocket.jpg');">
+        <source src="pry3.mp3" type="audio/mpeg">
+       </audio>
+     
+      
+  </div>
+  </div> 
+
+    
+
+<!-- Second Grid 
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+-->
+<!-- Footer 
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+-->
+<script src="script.js"></script>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
